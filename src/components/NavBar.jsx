@@ -8,7 +8,7 @@ const NavBar = () => {
     setIsOpen(!isOpen);
   };
   return (
-    <div className="w-full h-16 bg-gray-300 flex items-center justify-between px-4 fixed">
+    <div className="w-full h-16 bg-gray-300 flex items-center justify-between px-4 fixed z-20">
       <h1 className="text-3xl font-thin font-signature md:text-2xl">Aparna</h1>
       <ul className="hidden md:flex lg:flex">
         {props.map((prop, index) => (
