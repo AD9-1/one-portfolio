@@ -3,7 +3,7 @@ import skills from "../skills.json";
 const Skill = () => {
   return (
     <div
-      name="skill"
+      name="skills"
       className="w-full bg-gradient-to-br from-blue-400 to-orange-50 px-8 py-28 md:h-full "
     >
       <div className="max-w-screen-lg mx-auto flex flex-col justify-center w-full">

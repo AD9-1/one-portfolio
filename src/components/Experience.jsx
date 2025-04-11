@@ -5,7 +5,7 @@ import WorkIcon from "@mui/icons-material/Work";
 import "react-vertical-timeline-component/style.min.css";
 const Experience = () => {
   return (
-    <div className="w-full bg-gradient-to-br from-orange-50 to-blue-400 px-6 py-28 md:h-full ">
+    <div name="experience" className="w-full bg-gradient-to-br from-orange-50 to-blue-400 px-6 py-28 md:h-full ">
         <div className="max-w-screen-lg mx-auto flex flex-col justify-center w-full">
       <div className="">
         <h2 className=" w-fit h-fit text-4xl text-blue-900 
