@@ -33,7 +33,7 @@ const Home = () => {
           <img
             src={myImage}
             alt="profile"
-            className="h-full md:mx-auto object-fill rounded md:max-h-80 md:w-[60%]"
+            className="h-full w-3/4 m-auto md:mx-auto object-cover md:object-contain rounded-3xl md:max-h-full md:w-11/12"
           />
         </div>
       </div>

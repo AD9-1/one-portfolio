@@ -26,8 +26,8 @@ const Social = () => {
     },
   ];
   return (
-    <div className="fixed top-1/4 left-0">
-      <ul className="hidden lg:block">
+    <div className="fixed top-1/2 left-0">
+      <ul className=" lg:block">
         {social.map((item,index) => {
           return (
             <li key={index}
