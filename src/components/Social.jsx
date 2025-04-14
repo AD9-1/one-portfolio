@@ -36,7 +36,7 @@ const Social = () => {
                  ml-[-75px] hover:ml-[-1px] hover:rounded-tr-md hover:rounded-br-md duration-500"
             >
               <span className="text-lg w-1/2"> {item.name}</span>
-              <a href={item.link} target="_blank">{item.icon}</a>
+              <a href={item.link} target="_blank" rel="noreferrer">{item.icon}</a>
             </li>
           );
         })}
