@@ -1,6 +1,7 @@
 import React from "react";
 import myImage from "../assets/new.JPG";
 import { FaCircleArrowRight } from "react-icons/fa6";
+
 const Home = () => {
   return (
     <div
